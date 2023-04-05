@@ -14,6 +14,7 @@ import com.example.bmi.viewModel.AsosiyViewModel
 class MainActivityTest : AppCompatActivity() {
 
     lateinit var arrayList: ArrayList<QuestionModel>
+    val a = 1
     lateinit var questionModel: QuestionModel
     lateinit var asosiyViewModel:AsosiyViewModel
     var trueanswer=0
