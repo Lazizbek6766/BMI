@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cbr"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/cyb"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cbrtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbr"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-24dp"
+        android:layout_marginRight="10dp"
+        android:text="Turayev Lazizbek"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!-- Element 1 -->
+        <item
+            android:id="@+id/nav_item_1"
+            android:title="Element 1" />
+
+        <!-- Element 2 -->
+        <item
+            android:id="@+id/nav_item_2"
+            android:title="Element 2" />
+
+        <!-- Element 3 -->
+        <item
+            android:id="@+id/nav_item_3"
+            android:title="Chiqish" />
+
+</menu>
